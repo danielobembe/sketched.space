@@ -1,0 +1,76 @@
+/*@import url(http://fonts.googleapis.com/css?family=Roboto);*/
+/*
+@font-face {
+    font-family: 'din-regular';
+    src:
+        url('/assets/fonts/DIN-Regular.woff2') format('woff2'),
+        url('/assets/fonts/DIN-Regular.woff') format('woff'),
+        url('/assets/fonts/DIN-Regular.ttf') format('ttf'),
+        url('/assets/fonts/DIN-Regular.otf') format('otf');}
+@font-face {
+    font-family: 'din-medium';
+    src:
+        url('/assets/fonts/DIN-Medium.woff2') format('woff2'),
+        url('/assets/fonts/DIN-Medium.woff') format('woff'),
+        url('/assets/fonts/DIN-Medium.ttf') format('ttf'),
+        url('/assets/fonts/DIN-Medium.otf') format('otf');}*/
+
+.template-splash, .template-splash > body {
+    height:100%;
+    font-family: "din-regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*background-color: blue;*/
+}
+
+.template-splash h1 {
+    text-transform: uppercase;
+    font-family: "din-regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    line-height:1em;
+    text-align:center;
+/*    padding:0.5em;*/
+    font-size:3vw;
+}
+
+/* Custom container */
+.template-splash .container{
+  margin: 0 auto;
+  max-width: 500px;
+  height:100%;
+  overflow:visible;
+  /*background: grey;*/
+
+}
+
+.template-splash .container a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.template-splash .v-center {
+  margin-top:50%;
+}
+
+.template-splash li {
+    list-style-type: none;
+}
+
+.template-splash .index-nav > ul > li {
+    position: relative;
+    float: right;
+    clear: right;
+    right: 2.0em;
+
+}
+.template-splash .index-nav > ul > li a {
+    color: #000;
+}.template-splash .index-nav > ul > li a:hover {
+    color: #ababab;
+}
+
+.template-splash .index-trail > ul > li {
+    position: relative;
+    float: left;
+    clear: left;
+    left: -1.0em;
+}

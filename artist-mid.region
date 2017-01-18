@@ -1,0 +1,64 @@
+<div id="project-container" class="row">
+
+    <div class="col-xs-12 col-md-7">
+    <!-- Column 1 Begin -->
+     <a class="project-anchor" href="/yelin_kim">
+        <div class="project">
+               <div class="image">
+                   <!-- <img src="/assets/images/horizontal_loremPixel_dot_com.jpg"> -->
+                   <img id="yelin_kim" src="https://aaron-cho-mmjz.squarespace.com/assets/yelin_kim.jpg">
+               </div>
+               <ul class="text" style="opacity: 1;">               <li class="color" style="background-color: #"></li>
+                   <li class="title">Yelin Kim</li>
+                   <li class="day_location">1979 - Seoul, S.Korea</li>
+               </ul>
+         </div>
+       </a>
+       <a class="project-anchor" href="/alisi-telengut">
+           <div class="project project-bottom project-diagonal">
+                   <div class="image">
+                       <!-- <img src="/assets/images/vertical_loremPixel_dot_com.jpg"> -->
+                       <img id="alisi_telengut" src="https://aaron-cho-mmjz.squarespace.com/assets/alisi_telengut.jpeg">
+                   </div>
+                   <ul class="text" style="opacity: 1;">               <li class="color" style="background-color: #84fd85"></li>
+                       <li class="title">Alisi Telengut | Filmmaker</li>
+                       <li class="day_location">1989 - Ulanbaatar, Mongolia</li>
+                   </ul>
+           </div>
+         </a>
+       <!-- Column 1 End -->
+       </div>
+
+
+    <div div class="col-xs-12 col-md-4 col-md-push-1">
+    <!-- Column 2 Begin -->
+    <a class="project-anchor" href="/jiyen-lee">
+       <div class="project project-right project-diagonal" >
+               <div class="image">
+                   <!-- <img src="/assets/images/vertical_loremPixel_dot_com.jpg"> -->
+                   <img id="jiyen_lee" src="https://aaron-cho-mmjz.squarespace.com/assets/jiyen_lee.jpg">
+               </div>
+               <ul class="text" style="opacity: 1;">               <li class="color" style="background-color: #fffd88"></li>
+                   <li class="title">Jiyen Lee</li>
+                   <li class="day_location">1979 - Seoul, S.Korea</li>
+               </ul>
+        </div>
+     </a>
+     <a class="project-anchor" href="/dongwhan-wang">
+      <div class="project project-bottom project-right" style="margin-left:-50px;">
+               <div class="image">
+                   <!-- <img src="/assets/images/horizontal_loremPixel_dot_com.jpg"> -->
+                   <img id="dongwhan_wang" src="https://aaron-cho-mmjz.squarespace.com/assets/dongwhan_wang.jpg">
+               </div>
+               <ul class="text" style="opacity: 1;">               <li class="color" style="background-color: #8083fc"></li>
+                   <li class="title">Dongwhan Wang</li>
+                   <li class="day_location">1979 - Seoul, S.Korea</li>
+               </ul>
+       </div>
+     </a>
+
+    <!-- Column 2 End -->
+    </div>
+
+
+</div>

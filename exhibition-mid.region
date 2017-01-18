@@ -1,0 +1,52 @@
+<p class="eng">
+  <squarespace:block-field id="_exhibition-eng_{squarespace.page-id}" columns="12"/>
+</p>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-2 exhibition exhibition-yellow col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">02.17</div></div>
+            <div class="col-xs-12 col-sm-6 col-md-2 exhibition exhibition-yellow col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">05.17</div></div>
+            <div class="hidden-xs hidden-sm col-md-2 exhibition exhibition-blank aspect_container"><div class="eng"></div></div>
+            <div class="hidden-xs hidden-sm col-md-2 exhibition exhibition-blank aspect_container"><div class="eng"></div></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="hidden-xs hidden-sm col-md-2  exhibition exhibition-blank aspect_container"><div class="eng"></div></div>
+            <div class="hidden-xs hidden-sm col-md-2  exhibition exhibition-blank aspect_container"><div class="eng"></div></div>
+            <div class="col-xs-12 col-sm-6 col-md-2  exhibition exhibition-pink col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">11.17</div></div>
+            <div class="col-xs-12 col-sm-6 col-md-2  exhibition exhibition-pink col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">08.17</div></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-2 exhibition exhibition-blue col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">02.18</div></div>
+            <div class="col-xs-12 col-sm-6 col-md-2 exhibition exhibition-blue col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">05.18</div></div>
+            <div class="hidden-xs hidden-sm col-md-2 exhibition exhibition-blank aspect_container"><div class="eng"></div></div>
+            <div class="hidden-xs hidden-sm col-md-2 exhibition exhibition-blank aspect_container"><div class="eng"></div></div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="hidden-xs hidden-sm col-md-2  exhibition exhibition-blank aspect_container" ><div class="eng"></div></div>
+            <div class="hidden-xs hidden-sm col-md-2  exhibition exhibition-blank aspect_container"><div class="eng"></div></div>
+            <div class="col-xs-12 col-sm-6 col-md-2  exhibition exhibition-green col-sm-push-3 col-md-push-0 aspect_container" ><div class="eng">11.18</div></div>
+            <div class="col-xs-12 col-sm-6 col-md-2  exhibition exhibition-green col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">08.18</div></div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+</div>
+</section>

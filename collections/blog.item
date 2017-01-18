@@ -1,81 +1,79 @@
+
 {.section item}
 
-<article class="{@|item-classes}" id="article-{id}" data-item-id="{id}">
+  <!--WRAPPER-->
+  <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 
-  <!--POST HEADER-->
+    <!--POST TILE-->
+    <h1 class="title" data-content-field="title">
+      {.passthrough?}
+        <a href="{sourceUrl}" target="_blank">{title}</a>
+      {.or}
+        {title}
+      {.end}
+    </h1>
 
-  <header>
-  </header>
+    <!--AUTHOR AND DATE-->
+    <p class="meta">
+      <a href="{fullUrl}" class="permalink"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a>
+    </p>
 
-  <!--POST BODY-->
+    <!--MAIN CONTENT-->
+    {body}
 
-  <h1 data-content-field="title" class="entry-title">
-    {.passthrough?}
-      <a href="{sourceUrl}">{title}</a>
-    {.or}
-      <a href="{fullUrl}">{title}</a>
+    <!--BLOG INJECTION-->
+    {postItemInjectCode}
+
+    <!--CATEGORIES-->
+    {.repeated section categories}
+      <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with},
     {.end}
-  </h1>
 
-  <div class="body entry-content">
-    {.section body}{@}{.end}
-    {.passthrough?}{.or}{.section sourceUrl}<div class="entry-source">Source: <a href="{sourceUrl}" target="_blank">{sourceUrl|truncate 42}</a></div>{.end}{.end}
-  </div>
+    <!--TAGS-->
+    {.repeated section tags}
+      <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
+    {.end}
 
-  <!--POST FOOTER-->
+    <!--SHARE AND LIKE-->
+    {@|like-button}
+    {@|social-button}
 
-  <footer>
-    <div class="meta">
-      <div class="grouping">
-      {.section categories}
-        <span class="categories">
-          <span class="categories-title">Categories: </span>
-          {.repeated section @}<a href="{collection.fullUrl}?category={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}
-        </span>
+
+    <!--LOCATION-->
+    {.section location}
+      {.section addressTitle}
+        {addressTitle}
+        {addressLine1}
+        {addressLine2}
+        {addressCountry}
       {.end}
-      {.section tags}
-        <span class="tags">
-          <span class="tags-title">Tags:</span>
-          {.repeated section @}<a href="{collection.fullUrl}?tag={@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}
-        </span>
-      {.end}
-      </div>
-      <div class="info">
-        <span class="date"><time class="published" datetime="{addedOn|date %F}">{addedOn|date %B %e, %Y}</time></span>
-        <span class="author">by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a></span>
+    {.end}
 
-        <div class="comments-social-like">
-          {@|like-button}
-          {@|social-button-inline}
-        </div>        
-      </div>
-    </div>
-  {postItemInjectCode}
-
-  </footer>
-
-  <!-- COMMENTS -->
-
-  <section id="comments-{id}" class="comments-wrapper">
+    <!--COMMENTS-->
     {@|comments}
-  </section>
-
 
   </article>
+
 {.end}
 
 
 <!--PAGINATION-->
-
 {.section pagination}
-  <nav class="pagination clear">
+  <nav class="blog-item-pagination">
+
+    <!--NEWER PAGE-->
     {.section prevItem}
-      <a class="prev-item" href="{fullUrl}">&larr; {title}</a>
+      <a href="{fullUrl}">Newer</a>
+    {.or}
+      <a class="disabled">Newer</a>
     {.end}
+
+    <!--OLDER PAGE-->
     {.section nextItem}
-      <a class="next-item" href="{fullUrl}">{title} &rarr;</a>
+      <a href="{fullUrl}">Older</a>
+    {.or}
+      <a class="disabled">Older</a>
     {.end}
+
   </nav>
 {.end}
-
-
