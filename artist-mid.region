@@ -36,7 +36,7 @@
        <div class="project project-right project-diagonal" >
                <div class="image">
                    <!-- <img src="/assets/images/vertical_loremPixel_dot_com.jpg"> -->
-                   <img id="jiyen_lee" src="https://aaron-cho-mmjz.squarespace.com/assets/jiyenlee.jpg">
+                   <img id="jiyen_lee" src="https://aaron-cho-mmjz.squarespace.com/assets/jiyen-image.jpg">
                </div>
                <ul class="text" style="opacity: 1;">               <li class="color" style="background-color: #fffd88"></li>
                    <li class="title">Jiyen Lee</li>
