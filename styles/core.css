@@ -1436,6 +1436,8 @@ abbr,acronym { border: 0;
 			/*margin: auto;*/
 			margin-left: 50%;
 			transform: translateX(-50%);
+			margin-top: 50%;
+			transform: translateY(-50%);
 		}
 
 		.project-anchor {
