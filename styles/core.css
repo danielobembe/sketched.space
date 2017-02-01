@@ -1428,16 +1428,12 @@ abbr,acronym { border: 0;
 			width: 250px;
 		}
 		#jiyen_lee {
-			/*position: absolute;*/
-			/*top: -9999px;
+			position: absolute;*/
+			top: -9999px;
      	bottom: -9999px;
 	   	left: -9999px;
-	   	right: -9999px;*/
-			/*margin: auto;*/
-			margin-left: 50%;
-			transform: translateX(-50%);
-			margin-top: 50%;
-			transform: translateY(-50%);
+	   	right: -9999px;
+			margin: auto;
 		}
 
 		.project-anchor {
