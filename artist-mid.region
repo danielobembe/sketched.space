@@ -34,7 +34,7 @@
     <!-- Column 2 Begin -->
     <a class="project-anchor" href="/jiyen-lee">
        <div class="project project-right project-diagonal" >
-               <div class="image">
+               <div class="image" id="jiyen_container">
                <!-- <div class="image" style="height: 300px;width: 250px;"> -->
                    <!-- <img src="/assets/images/vertical_loremPixel_dot_com.jpg"> -->
                    <!-- <img id="jiyen_lee" src="https://aaron-cho-4x75.squarespace.com/assets/jiyenlee.jpg"> -->
