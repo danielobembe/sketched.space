@@ -37,8 +37,8 @@
                <div class="image">
                <!-- <div class="image" style="height: 300px;width: 250px;"> -->
                    <!-- <img src="/assets/images/vertical_loremPixel_dot_com.jpg"> -->
-                   <img id="jiyen_lee" src="https://aaron-cho-4x75.squarespace.com/assets/jiyenlee.jpg">
-                   <!-- <img src="https://aaron-cho-4x75.squarespace.com/assets/jiyenlee.jpg"> -->
+                   <!-- <img id="jiyen_lee" src="https://aaron-cho-4x75.squarespace.com/assets/jiyenlee.jpg"> -->
+                   <img src="https://aaron-cho-4x75.squarespace.com/assets/jiyenlee.jpg">
                </div>
                <ul class="text" style="opacity: 1;">               <li class="color" style="background-color: #fffd88"></li>
                    <li class="title">Jiyen Lee</li>
