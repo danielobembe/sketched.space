@@ -25,7 +25,8 @@
     text-transform: uppercase;
     font-family: "din-regular","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    /*letter-spacing: .1em;*/
+    letter-spacing: .5px;
     line-height:1em;
     text-align:center;
 /*    padding:0.5em;*/
@@ -59,7 +60,7 @@
     position: relative;
     float: right;
     clear: right;
-    right: 18%;
+    right: 21%;
 
 }
 .template-splash .index-nav > ul > li a {
@@ -72,5 +73,5 @@
     position: relative;
     float: left;
     clear: left;
-    left: 18%;
+    left: 22%;
 }
