@@ -1416,10 +1416,10 @@ abbr,acronym { border: 0;
 			height: 300px;
 			width: 250px;
 		}
-		#jiyen_lee{
+		/*#jiyen_lee{*/
 			/*height: 300px;
 			width: 250px;*/
-		}
+		/*}*/
 
 		#jiyen_container {
 			position: relative;
