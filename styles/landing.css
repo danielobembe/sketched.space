@@ -59,7 +59,7 @@
     position: relative;
     float: right;
     clear: right;
-    right: 2.0em;
+    right: 18%;
 
 }
 .template-splash .index-nav > ul > li a {
@@ -72,5 +72,5 @@
     position: relative;
     float: left;
     clear: left;
-    left: -1.0em;
+    left: 18%;
 }
