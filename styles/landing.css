@@ -79,7 +79,7 @@
 /* X Small */
 @media (min-width: 366px) {
 .template-splash	.v-center{
-		margin-top: 43%;
+		margin-top: 40%;
 	}
  }
 
@@ -93,7 +93,7 @@
 /* Medium */
 @media (min-width: 768px) {
 .template-splash	.v-center{
-		margin-top: 46%;
+		margin-top: 48%;
 	}
  }
 
