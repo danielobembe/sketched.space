@@ -41,7 +41,7 @@
             <div class="bt"><input id="header_area_search" type="text" value=""><a id="header_bt_search"><i class="glyphicon glyphicon-search"></i></a></div>
           </div>
 
-      
+
 
       <!-- <script>
           function sendMail() {
