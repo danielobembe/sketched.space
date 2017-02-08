@@ -47,11 +47,11 @@
   color:#efefef;
   text-decoration:none;
 }
-
+/*
 .template-splash .v-center {
   margin-top:56%;
 }
-
+*/
 .template-splash li {
     list-style-type: none;
 }
@@ -75,3 +75,30 @@
     clear: left;
     left: 22%;
 }
+/* Small */
+@media (min-width: 35.5em) {
+.template-splash	.v-center{
+		margin-top: 38%;
+	}
+ }
+
+/* Medium */
+@media (min-width: 48em) {
+.template-splash	.v-center{
+		margin-top: 58%;
+	}
+ }
+
+/* Large */
+@media (min-width: 64em) {
+.template-splash	.v-center{
+		margin-top: 68%;
+	}
+ }
+
+/* X-Large */
+@media (min-width: 80em) {
+.template-splash	.v-center{
+		margin-top: 78%;
+	}
+ }
