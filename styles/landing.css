@@ -76,28 +76,28 @@
     left: 22%;
 }
 /* Small */
-@media (min-width: 35.5em) {
+@media (min-width: 640px) {
 .template-splash	.v-center{
 		margin-top: 38%;
 	}
  }
 
 /* Medium */
-@media (min-width: 48em) {
+@media (min-width: 768px) {
 .template-splash	.v-center{
 		margin-top: 58%;
 	}
  }
 
 /* Large */
-@media (min-width: 64em) {
+@media (min-width: 1440px) {
 .template-splash	.v-center{
 		margin-top: 68%;
 	}
  }
 
 /* X-Large */
-@media (min-width: 80em) {
+@media (min-width: 1920px) {
 .template-splash	.v-center{
 		margin-top: 78%;
 	}
