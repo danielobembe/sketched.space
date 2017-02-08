@@ -93,14 +93,14 @@
 /* Medium */
 @media (min-width: 768px) {
 .template-splash	.v-center{
-		margin-top: 58%;
+		margin-top: 46%;
 	}
  }
 
 /* Large */
 @media (min-width: 1440px) {
 .template-splash	.v-center{
-		margin-top: 68%;
+		margin-top: 56%;
 	}
  }
 
