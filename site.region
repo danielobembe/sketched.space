@@ -32,13 +32,28 @@
             <input type="email"  placeholder="Email" id="email-field">
             </div>
             <div class="form-group">
-            <a type="submit" class="btn btn-default" id="subscribe">Subscribe</a>
+            <!-- <a type="submit" class="btn btn-default" id="subscribe">Subscribe</a> -->
+            <a type="submit" onclick="sendMail(); return false" class="btn btn-default" id="subscribe">Subcribe</a>
             </div>
           </ul>
 
           <div class="search">
             <div class="bt"><input id="header_area_search" type="text" value=""><a id="header_bt_search"><i class="glyphicon glyphicon-search"></i></a></div>
           </div>
+
+      
+
+      <!-- <script>
+          function sendMail() {
+              var link = "mailto:obembe.dan@gmail.com"
+                       + "?cc=myCCaddress@example.com"
+                       + "&subject=" + escape("I subscribed to SketchedSpace")
+                       + "&body=" + escape(document.getElementById('myText').value)
+              ;
+              window.location.href = link;
+          }
+          </script> -->
+
 
           <div class="copyright">
             © 2016, SKETCHEDSPACE.<br>
