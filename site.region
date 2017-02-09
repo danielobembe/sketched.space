@@ -34,7 +34,7 @@
             <div class="form-group">
             <!-- <a type="submit" class="btn btn-default" id="subscribe">Subscribe</a> -->
             <!-- <a type="submit" onclick="sendMail(); return false" class="btn btn-default" id="subscribe">Subcribe</a> -->
-              <button onclick="sendMail(); return false">Subscribe</button>
+              <button onclick="sendMail(); return false">subscribe</button>
             </div>
           </ul>
 
