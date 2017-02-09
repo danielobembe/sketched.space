@@ -49,12 +49,14 @@
                 <!-- <label for="mce-EMAIL">Email Address  </label> -->
                 <input type="email" placeholder="Email" id="email-field">
               </div>
-                <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_70f082192079ad31b1cf48f17_5477944af7" tabindex="-1" value=""></div>
                   <div class="clear"><input type="submit" value="Subscribe" id="subscribe" class="btn btn-default"></div>
+                  <br />
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div> 
                   </div>
               </form>
               </div>
