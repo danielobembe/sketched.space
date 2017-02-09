@@ -5,8 +5,8 @@
 <div class="row">
     <div class="col-xs-12">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-2 exhibition exhibition-yellow col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">05.17</div></div> <!-- TEST DATE -->
-            <!-- <div class="col-xs-12 col-sm-6 col-md-2 exhibition exhibition-yellow col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">04.17</div></div> -->
+            <!-- <div class="col-xs-12 col-sm-6 col-md-2 exhibition exhibition-yellow col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">05.17</div></div> <!-- TEST DATE --> 
+            <div class="col-xs-12 col-sm-6 col-md-2 exhibition exhibition-yellow col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">04.17</div></div>
             <div class="col-xs-12 col-sm-6 col-md-2 exhibition exhibition-yellow col-sm-push-3 col-md-push-0 aspect_container"><div class="eng">07.17</div></div>
             <div class="hidden-xs hidden-sm col-md-2 exhibition exhibition-blank aspect_container"><div class="eng"></div></div>
             <div class="hidden-xs hidden-sm col-md-2 exhibition exhibition-blank aspect_container"><div class="eng"></div></div>
