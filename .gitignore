@@ -2,3 +2,4 @@ sftp-config.json
 _site_backup.region
 npm-debug.log
 hold.region
+_site_backup_older.region
