@@ -89,10 +89,10 @@
 		margin-top: 48%;
 	}
 
-  .template-splash .index-nav > ul > li {
+/**  .template-splash .index-nav > ul > li {
       position: relative;
       /**float:  none;**/
-      /**clear: both ;**/
+      /**clear: both ;
       text-align: center;
   }
   .template-splash .index-nav > ul > li a {
