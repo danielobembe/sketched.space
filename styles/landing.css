@@ -88,6 +88,10 @@
 .template-splash	.v-center{
 		margin-top: 48%;
 	}
+
+  ul > li {
+    text-align: center;
+  }
  }
 
 /* Medium */
