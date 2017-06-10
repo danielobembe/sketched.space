@@ -91,8 +91,8 @@
 
   .template-splash .index-nav > ul > li {
       position: relative;
-      float:  none;
-      clear: both ;
+      /**float:  none;**/
+      /**clear: both ;**/
       text-align: center;
   }
   .template-splash .index-nav > ul > li a {
