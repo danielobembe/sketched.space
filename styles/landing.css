@@ -89,9 +89,28 @@
 		margin-top: 48%;
 	}
 
-  ul > li {
-    text-align: center;
+  .template-splash .index-nav > ul > li {
+      position: relative;
+      float:  none;
+      clear: both ;
+      text-align: center;
   }
+  .template-splash .index-nav > ul > li a {
+      color: #000;
+  }.template-splash .index-nav > ul > li a:hover {
+      color: #ababab;
+  }
+
+  .template-splash .index-trail > ul > li {
+      position: relative;
+      float: left;
+      clear: left;
+      left: 22%;
+  }
+
+/**ul > li {
+    text-align: center;
+  }**/
  }
 
 /* Medium */
